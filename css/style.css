@@ -25,11 +25,9 @@ header , footer {
     justify-content: space-between;
 }
 footer {
-   position: fixed;
-   bottom: 0;
-   width: 100vw;
-
- }
+    bottom: 100%;
+   width: 98.5vw;
+  }
 .quiz-app {
     margin: 20px auto;
     width: 800px;
