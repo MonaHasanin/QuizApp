@@ -1,0 +1,38 @@
+Quiz App
+الأبلكيشن اول ما يفتح هيطلب من المستخدم عدد الأسئله الى عاوز يمتحن عليها 
+و يقدر يحدد القسم / الاقسام الى عاوز يختبر نفسه فيها ( تاريخ ، تكنولوچيا ، فن ، الخ..)
+بعد الاختبار هيكون فيه نتيجه للإختبار بتعرض فيها النتيجه النهائيه 
+و الأسئله بالإجابات الصح بتاعتها لو فيها اخطاء 
+و دا لينك API 
+https://quizgecko.com/api
+
+01 create JSON object for questions
+02 Start creating HTML MarkUp
+03 Add Dummy data
+04 Create the Styling with CSS
+in progress
+
+05 Fetch Number Of questions From JSON object
+06 Show questions count + questions Category
+07 show the Number of Bullets Depend on questionscount
+08 set the number for the write and wrong numbers
+09 create countdown timer
+fetch the questions from the JSON object
+11 Show first question
+12 check IF answer is correct and hide question then show Next one
+13 If the time End, mark the question As wrong and show next question
+14 if all the questions is done, say congrats and show the result
+15 add class on Bullets after answering the question
+16 change color to green when user select right option
+17 change color to red when user select wrong answer
+18 save score in local storage
+19 display highscore table at end of quiz
+20 clear localStorage before starting new game
+21 make a button that clears the scores
+
+Ideas 
+- manny JSON object and choose Language
+- multiple choice or true false
+- add Many questions and choose only 10 Randomly
+- Randomizw answers ( shuffle function )
+- Make it responsive

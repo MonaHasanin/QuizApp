@@ -1,0 +1,82 @@
+[
+    {
+        "title": "Why We Use <br> Element",
+        "answer_1": "To Make Text Bold",
+        "answer_2": "To Make Text Italic",
+        "answer_3": "To Add Breakline",
+        "answer_4": "To Create Horizontal Line",
+        "right_answer": "To Add Breakline"
+      },
+      {
+        "title": "Where did Gandhi train in law?",
+        "answer_1" : "Mumbai",
+        "answer_2": "Delhi",
+        "answer_3": "London",
+        "answer_4": "New York",
+        "right_answer": "London"
+
+    },{
+        "title": "What were some of the causes that Gandhi led campaigns for in India?",
+        "answer_1" : "Animal rights and environmental protection",
+        "answer_2": "Women's rights and religious and ethnic amity",
+        "answer_3": "Gun control and military expansion",
+        "answer_4": "Tax cuts and economic deregulation",
+        "right_answer": "ax cuts and economic deregulation"
+
+    },{
+        "title": "Why we use <br> Element?",
+        "answer_1" : "To Make text Bold",
+        "answer_2": "To Make Text Italic",
+        "answer_3": "To add BreakLine",
+        "answer_4": "To create Horizantal Line",
+        "right_answer": "To add BreakLine"
+
+    },{
+        "title": "Is <img> Element Has Attribute href?",
+        "answer_1" : "yes",
+        "answer_2": "No Is For Anchor Tag <a>",
+        "answer_3": "Answer 1 and 3 Is Right",
+        "answer_4": "No its For Anchor Tag <a>",
+        "right_answer": "yes"
+    } ,
+    {
+        "title": "Why We Use <br> Element",
+        "answer_1": "To Make Text Bold",
+        "answer_2": "To Make Text Italic",
+        "answer_3": "To Add Breakline",
+        "answer_4": "To Create Horizontal Line",
+        "right_answer": "To Add Breakline"
+      },
+      {
+        "title": "Where did Gandhi train in law?",
+        "answer_1" : "Mumbai",
+        "answer_2": "Delhi",
+        "answer_3": "London",
+        "answer_4": "New York",
+        "right_answer": "London"
+
+    },{
+        "title": "What were some of the causes that Gandhi led campaigns for in India?",
+        "answer_1" : "Animal rights and environmental protection",
+        "answer_2": "Women's rights and religious and ethnic amity",
+        "answer_3": "Gun control and military expansion",
+        "answer_4": "Tax cuts and economic deregulation",
+        "right_answer": "Tax cuts and economic deregulation"
+
+    },{
+        "title": "Why we use <br> Element?",
+        "answer_1" : "To Make text Bold",
+        "answer_2": "To Make Text Italic",
+        "answer_3": "To add BreakLine",
+        "answer_4": "To create Horizantal Line",
+        "right_answer": "To add BreakLine"
+
+    },{
+        "title": "Is <img> Element Has Attribute href?",
+        "answer_1" : "yes",
+        "answer_2": "No Is For Anchor Tag <a>",
+        "answer_3": "Answer 1 and 3 Is Right",
+        "answer_4": "No its For Anchor Tag <a>",
+        "right_answer": "yes"
+    }
+]
