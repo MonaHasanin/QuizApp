@@ -25,8 +25,11 @@ header , footer {
     justify-content: space-between;
 }
 footer {
-    bottom: 100%;
-   width: 98.5vw;
+   display: flex;
+   flex-direction: column;
+   bottom: 0;
+    width: 100%;
+   padding-top: 1px;
   }
 .quiz-app {
     margin: 20px auto;
