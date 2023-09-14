@@ -31,6 +31,9 @@ function getQuestions() {
             createBullets(questionsCount);
              //Set the number of question in span tag
  
+      // Start CountDown
+      countdown(3, questionsCount);
+
              //Add Question Data
              AddQuestionData(questionsObject[currentIndex], questionsCount);
     
@@ -58,7 +61,10 @@ handleBullets();
 
              //start countDown
              clearInterval(countdownInterval);
-             countdown(6, questionsCount);
+
+             // Timer 
+          //   startTimer();
+             countdown(3, questionsCount);
 // Show results
 showResults(questionsCount);
 
@@ -105,7 +111,7 @@ questionTitle.appendChild(questionText);
 quizArea.appendChild(questionTitle);
 
 
-//creste the answers
+//create the answers
 for(let i=1; i<=4; i++) {
     //create main answer div
     let mainDiv = document.createElement("div");
@@ -117,8 +123,8 @@ for(let i=1; i<=4; i++) {
     let radioInput = document.createElement("input");
 
     //add type + Name + Id + Data Attribute
-    radioInput.type="radio";
     radioInput.name="question";
+    radioInput.type="radio";
     radioInput.id=`answer_${i}`;
     radioInput.dataset.answer = obj[`answer_${i}`];
 
@@ -189,7 +195,7 @@ function showResults(count) {
        answersArea.remove();
        submitButton.remove();
        bullets.remove();
-
+ 
        if (rightAnswers > count /2 && rightAnswers < count){
 theResults = `<span class="good">Good</span>, (( ${rightAnswers} From ${count} Is Your Result))`;
 resultsContainer.style.backgroundImage="url(https://media.giphy.com/media/9Www30GgMqxrkJTsX5/giphy.gif) ";
@@ -211,6 +217,8 @@ resultsContainer.style.backgroundImage="url(https://media.giphy.com/media/9Www30
 
 }
 
+// timer
+
 function countdown(duration, count){
     if (currentIndex < count) {
         let minutes, seconds;
@@ -223,13 +231,12 @@ function countdown(duration, count){
 
              countdownElement.innerHTML = `${minutes}:${seconds}`;
 
-             if (--duration <0){
+             if (--duration < 0){
                 clearInterval(countdownInterval);
 //console.log("Finished"); 
 //showResults(count);
 submitButton.click();
              }
-            }
-                    , 1000);
+            }, 1000);
 }
 } 
