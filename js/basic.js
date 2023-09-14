@@ -189,7 +189,6 @@ function showResults(count) {
        answersArea.remove();
        submitButton.remove();
        bullets.remove();
-       quizInfo.remove();
 
        if (rightAnswers > count /2 && rightAnswers < count){
 theResults = `<span class="good">Good</span>, (( ${rightAnswers} From ${count} Is Your Result))`;
